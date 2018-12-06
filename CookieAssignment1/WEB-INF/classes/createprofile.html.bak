@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <div style="color:#E76E3C">
+	<h1>PROFILE CREATION</h1>
+	<form action="CreateProfile" method="post">
+		<table>
+			<tr><td><span style="margin:5px">USER NAME:&nbsp&nbsp&nbsp</td>
+				<td ><input type="text" name="username"/></td></tr>
+			<tr><td><span style="margin:5px">PHONE NO:</td>
+				<td ><input type="text" name="phone"/></td></tr>
+			<tr><td><span style="margin:5px">EMAIL-ID</td>
+				<td ><input type="text" name="email"/></td></tr>
+			<tr><td colspan="2" style="text-align:center">
+					<input style="color:#E76E3C" type="submit" value="CREATE"/></td></tr>
+		</table>
+	</form>
+	</div>
+ </body>
+</html>

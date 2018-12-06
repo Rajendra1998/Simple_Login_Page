@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel = "stylesheet"
+	type = "text/css"
+	href = "cssmyStyle.css"/>
+	<a href="LogoutServlet">Logout</a>|<a href="ProfileServlet">View Profile</a>|<a href="editprofile.html">Edit Profile</a><hr>
+ </head>
+ <body>
+   <div>
+	<h1>PROFILE UPDATION</h1>
+	
+	<form action="EditProfileServlet" method="post">
+		<table>
+			<tr><td><span style="">OLD USER NAME:</td>
+				<td ><input type="text" name="username"/></td></tr>
+			<tr><td>NEW PHONE NO:</td>
+				<td ><input type="text" name="newphone"/></td></tr>
+			<tr><td>NEW EMAIL-ID:</td>
+				<td ><input type="text" name="newemail"/></td></tr>
+			<tr><td colspan="2" style="text-align:center">
+					<input style="color:#00FFFF" type="submit" value="UPDATE"/></td></tr>
+		</table>
+	</form>
+	</div>
+ </body>
+</html>
